@@ -1,0 +1,10 @@
+ {% extends 'main.html' %}
+{% load static %}
+{% block title %}{{ blog.title }}{% endblock %}
+{% block content %}
+<section class="container mt-5 text-center">
+<h3 class="mb-3">{{ blog.title }}</h3>
+    <img src="{{ blog.cover.url }}" alt="{{ blog.title }}">
+<p>{{ blog.content }}</p>
+</section>
+{% endblock %}
