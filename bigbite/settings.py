@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-w=3d8!_e%l!mvfzrh!&fn1evtc=og+(-)9$xi^5ppxsp3$+tdd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://home-chef-app.herokuapp.com/']
 
 # Application definition
 
